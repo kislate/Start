@@ -1,63 +1,12 @@
-//#include<stdio.h>
-//#include<stdlib.h>
-//#include<time.h>
-//
-//int main(void) 
-//{   
-//	int money,price;
-//	int sum=0;
-//	printf("Please enter the price of the goods");
-//	scanf_s("%d", &price);
-//	printf("ÄãÒª¸¶¿îµÄ½ğ¶îÎª%dÔª£¨Í¶ÈëµÄÃæÖµÓ¦Îª1¡¢2»ò5Ôª£©\n", price);
-//	while (sum < price)
-//	{
-//		
-//		scanf_s("%d", &money);
-//		if (money == 1)
-//			sum += money;
-//		else if (money == 2)
-//			sum += money;
-//		else if (money == 5)
-//			sum += money;
-//		else
-//			printf("ÄãÍ¶ÈëµÄ½ğ¶î²»·ûºÏ¹æ¶¨£¬ÇëÍ¶ÈëÃæÖµÎª1¡¢2»ò5ÔªµÄÓ²±Ò:\n");
-//
-//
-//	}
-//	printf("ÄúÒÑ¾­¹ºÂò³É¹¦£¬ÕâÊÇÄúµÄÕÒÁã%dÔª", sum - price);
-//
-//	return 0;
-//
-//}
-
-///*ÓÃdo whileÓï¾äÀ´ÊµÏÖ*/
-//#include<stdio.h>
-//int main()
-//{
-//    int price, a, c;
-//    int b = 0;
-//    printf("Please enter the price.\n");
-//    scanf_s("%d", &price);
-//    do {
-//        printf("Pleaes enter a number between 1,2 and 5.\n");//Please insert cions.
-//        scanf_s("%d", &a);
-//        b = b + a;
-//    } while (b < price);
-//    c = b - price;
-//    printf("ÕÒÁã%d", c);//ÕÒÁãcÔª
-//    return 0;
-//}
-
-
 
 #include<stdio.h>
 int main(void)
 {
 	int money, price;
 	int sum = 0;
-	printf("ÇëÊäÈëÄãÒªÂòµÄÉÌÆ·µÄ¼Û¸ñ");
+	printf("è¯·è¾“å…¥ä½ è¦ä¹°çš„å•†å“çš„ä»·æ ¼");
 	scanf_s("%d", &price);
-	printf("ÄãÒª¸¶¿îµÄ½ğ¶îÎª%dÔª£¨Í¶ÈëµÄÃæÖµÓ¦Îª1¡¢2»ò5Ôª£©\n", price);
+	printf("ä½ è¦ä»˜æ¬¾çš„é‡‘é¢ä¸º%då…ƒï¼ˆæŠ•å…¥çš„é¢å€¼åº”ä¸º1ã€2æˆ–5å…ƒï¼‰\n", price);
 	while (sum < price)
 	{
 
@@ -65,11 +14,11 @@ int main(void)
 		if (money == 1 || money == 2 || money == 5)
 			sum += money;
 		else
-			printf("ÄãÍ¶ÈëµÄ½ğ¶î²»·ûºÏ¹æ¶¨£¬ÇëÍ¶ÈëÃæÖµÎª1¡¢2»ò5ÔªµÄÓ²±Ò:\n");
+			printf("ä½ æŠ•å…¥çš„é‡‘é¢ä¸ç¬¦åˆè§„å®šï¼Œè¯·æŠ•å…¥é¢å€¼ä¸º1ã€2æˆ–5å…ƒçš„ç¡¬å¸:\n");
 
 
 	}
-	printf("ÄúÒÑ¾­¹ºÂò³É¹¦£¬ÕâÊÇÄúµÄÕÒÁã%dÔª", sum - price);
+	printf("æ‚¨å·²ç»è´­ä¹°æˆåŠŸï¼Œè¿™æ˜¯æ‚¨çš„æ‰¾é›¶%då…ƒ", sum - price);
 
 	return 0;
 
