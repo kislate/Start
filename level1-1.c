@@ -3,7 +3,7 @@ int main(void)
 {
     char name;
     int cha, price, num;
-    printf("Çë·Ö±ğÊäÈëÄãÒª·ÅµÄ»õÎïÖÖÀà¡¢Í¨µÀ¡¢»õÎïµÄ¼ÛÇ®ºÍÊıÁ¿");
+    printf("è¯·åˆ†åˆ«è¾“å…¥ä½ è¦æ”¾çš„è´§ç‰©ç§ç±»ã€é€šé“ã€è´§ç‰©çš„ä»·é’±å’Œæ•°é‡:\n");
     scanf_s("%c" "%d" "%d" "%d", &name, (unsigned)40, &cha, &price, &num);
     printf("%d: ", cha);
     int i = 1;
